@@ -1,0 +1,123 @@
+
+
+/* #2 #colorful #palette is:
+    * Background: #F5F5F5 (GREY 100)
+    * Primary Text: black
+
+    * Primary color: #3F51B5 (INDIGO)
+    * Primary color_text : white
+    * Accent color: #CDDC39 (LIME)
+    * Accent color_text: black
+    */
+
+/*global styles */
+* {
+    /* #2 #font #faces */
+    font-family: 'Arial', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+}
+
+h1 {
+    /* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+}
+
+
+/*App bar styles*/
+
+
+
+
+/*styles for channel area*/
+.channel li{
+    list-style-type: none;
+    background-color: white;
+    padding:16px;
+    font-size:16px;
+    height:32px;
+    margin:2px;
+}
+.channel .selected{
+    border-left: 4px solid #3F51B5;
+    color:  #3F51B5;
+}
+
+/*styles for tab bar*/
+
+#tabbar{
+    background-color:white;
+}
+#tabbar button{
+    text-transform: uppercase;
+    background-color: white;
+    width: 30%;
+    border:none;
+    font-size:13px;
+    height: 72px;
+    padding:16px;
+}
+#tabbar button img{
+    margin:auto; 
+}
+#tabbar button span{
+    margin:4px;
+    display: block;
+}
+#tabbar button.selected{
+    border-bottom: 4px solid #3F51B5;
+    color:  #3F51B5;
+}
+
+/*styles for chat area*/
+p {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+}
+
+strong {
+    /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+    text-transform: uppercase;
+}
+
+h3 {
+    /* #2 #font #metadata is now medium */
+    font-size: medium;
+}
+
+em {
+    /* #2 #font #remaining overrides the default italic appearance of em elements*/
+    font-size: larger;
+    font-style: normal;
+}
+a{
+    /* link color back */
+    color:black;
+    text-transform: uppercase;
+}
+
+.messages{
+    margin: 8px 0px 8px 2.5px;
+}
+
+.messages p{
+    width: 80%;
+    font-size: medium;
+    background-color: white;
+    padding: 16px;
+}
+.messages button{
+    background-color: #CDDC39;
+    color:black;
+    text-transform:uppercase;
+}
+.messages.own{
+    margin: 8px 0px 8px 17.5%;
+}
+
